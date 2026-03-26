@@ -57,14 +57,3 @@ Dependencies
     • Matplotlib
     
 
-If you use this work, please cite:
-@article{nmpc_ppo_hybrid,
-  title={Hybrid NMPC–PPO Control for Safe and Efficient Learning},
-  author={Abdulraheem, Kamal},
-  year={2025}
-}License
-This project is licensed under the MIT License.
-Future Work
-    • Improved credit assignment between NMPC and PPO
-    • MPC-informed value function learning
-    • Extension to multi-agent reactor systems
