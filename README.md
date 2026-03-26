@@ -12,7 +12,7 @@ Key Features
     • Sample Efficiency Improvements
         ◦ Expert-guided learning
         ◦ Faster optimal policy convergence compared to pure PPO
-**It is important to download editabe SB3 in your machine. Then replace the OnPolicyAlgorithm.py located in the common with the OnPolicyAlgorithm.py in this repo  
+**It is important to download editabe SB3 in your machine. Then replace the OnPolicyAlgorithm.py located in the /common of the editable sb3 with the OnPolicyAlgorithm.py in this repo  
 Repository Structure: the repo contains the follwoing scripts to conduct the simulation experiment
 
 - main_hybrid.py        # Main training and evaluation script
