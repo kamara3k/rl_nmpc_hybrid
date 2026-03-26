@@ -1,5 +1,5 @@
 This repository implements a hybrid control configuration that combines Nonlinear Model Predictive Control (NMPC) with Proximal Policy Optimization (PPO) 
-to achieve safe, stable, and sample-efficient control of dynamic systems.
+to achieve safe, stable, and sample-efficient control of a micro nuclear reactor system.
 The framework leverages NMPC as an expert controller to guide reinforcement learning, reduce exploration and accelerate convergence toward optimal policies.
 Key Features
     • Hybrid Control Modes:
