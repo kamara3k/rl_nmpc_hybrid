@@ -937,9 +937,9 @@ def parse_args():
 def main():
     args = parse_args()
 
-    # If not specified, match env_kind convention: single=1 drum, multi=8 drums
+    
     if args.num_drums is None:
-        args.num_drums = 8 if args.env_kind == "multi" else 1
+        args.num_drums = 8 if args.env_kind == "multi" else 8
 
     run_name = f"{args.mode}_{args.env_kind}_drums{args.num_drums}"
     run_dir, model_dir, graph_dir, log_dir = create_run_dirs(run_name)
