@@ -38,7 +38,7 @@ Then replace the following file in the editable SB3 in your local machine with t
 <your_sb3_path>/stable_baselines3/common/OnPolicyAlgorithm.py
 ```
 
-with the `OnPolicyAlgorithm.py` provided in this repository.
+with the `on_policy_algorithm.py` provided in this repository.
 
 This modified file contains the function:
 
