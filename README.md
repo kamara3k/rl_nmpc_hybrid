@@ -55,7 +55,7 @@ which is used to intercept PPO actions and integrate NMPC within the training lo
 ├── main_hybrid.py        # Main training and evaluation script
 ├── envs.py               # Reactor environments (single/multi)
 ├── nmpc.py               # NMPC control algorithm (expert policy)
-├── OnPolicyAlgorithm.py  # Modified SB3 file with NMPC override logic
+├── on_policy_algorithm.py  # Modified SB3 file with NMPC override logic
 ├── requirements.txt      # Python dependencies (optional)
 ├── environment.yml       # Conda environment (recommended)
 ```
@@ -76,7 +76,7 @@ git clone git@github.com:DLR-RM/stable-baselines3.git
 
 ### 3.
 ```bash
-cp OnPolicyAlgorithm.py stable-baselines3/stable_baselines3/common/
+cp on_policy_algorithm.py stable-baselines3/stable_baselines3/common/
 ```
 
 ### 4. Create environment (recommended)
