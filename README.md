@@ -70,8 +70,25 @@ which is used to intercept PPO actions and integrate NMPC within the training lo
 git clone https://github.com/kamara3k/rl_nmpc_hybrid.git
 cd rl_nmpc_hybrid
 ```
+## Installation
 
-### 2. Create environment (recommended)
+### 1. Clone the repository
+```bash
+git clone https://github.com/kamara3k/rl_nmpc_hybrid.git
+cd rl_nmpc_hybrid
+```
+
+### 2.
+```bash
+git clone git@github.com:DLR-RM/stable-baselines3.git
+```
+
+### 3.
+```bash
+cp OnPolicyAlgorithm.py stable-baselines3/stable_baselines3/common/
+```
+
+### 4. Create environment (recommended)
 
 An `environment.yml` file is provided. Create the environment using:
 
@@ -79,7 +96,6 @@ An `environment.yml` file is provided. Create the environment using:
 conda env create -f environment.yml
 conda activate rl-nmpc
 ```
-
  **Note:** `requirements.txt` is optional and intended for users who prefer `pip`.
 
 ---
