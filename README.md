@@ -61,15 +61,6 @@ which is used to intercept PPO actions and integrate NMPC within the training lo
 ```
 
 ---
-
-## Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/kamara3k/rl_nmpc_hybrid.git
-cd rl_nmpc_hybrid
-```
 ## Installation
 
 ### 1. Clone the repository
